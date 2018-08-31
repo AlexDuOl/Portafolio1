@@ -1,0 +1,65 @@
+.top-nav-collapse {
+    background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: rgb(1, 28, 55, 0.3);
+}
+
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #78909c !important;
+    }
+}
+
+h1 {
+    letter-spacing: 8px;
+}
+
+h5 {
+    letter-spacing: 3px;
+}
+
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+}
+
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 700px;
+    }
+}
+
+body {
+    background: #011c37;
+}
+
+.jarallax {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: white;
+}
+
+.proyectos {
+    background: #011c37;
+}
+
+.link {
+    padding-top: 2em;
+}
+
+div .container {
+    padding: 0;
+}
+
+footer {
+    background: #061729;
+}
