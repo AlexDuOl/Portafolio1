@@ -30,7 +30,7 @@ h5 {
     .full-height body,
     .full-height header,
     .full-height header .view {
-        height: 700px;
+        height: 600px;
     }
 }
 
@@ -48,18 +48,43 @@ p {
     color: white;
 }
 
-.proyectos {
+.proyectos,
+.herramientas
+.contacto {
     background: #011c37;
+    height: 550px;
 }
 
 .link {
     padding-top: 2em;
 }
 
-div .container {
-    padding: 0;
+h1 {
+    padding: 3%;
 }
 
-footer {
-    background: #061729;
+i {
+    padding: 7%;
 }
+
+.icon{
+    text-align:center; margin-top:5em
+}
+
+.fa-whatsapp, .fa-linkedin, .fa-envelope {
+	border-radius: 50%;
+    background:#b4b4b4;
+    height: 2em;
+    width: 2em;
+}
+
+.fa-whatsapp:hover{
+	background: #EA6212;
+}
+.fa-linkedin:hover{
+	background: #EA6212;
+}
+.fa-envelope:hover{
+	background: #EA6212;
+}
+
