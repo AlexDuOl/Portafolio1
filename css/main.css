@@ -14,10 +14,15 @@
 
 h1 {
     letter-spacing: 8px;
+    padding: 3%;
+}
+
+h4 {
+    letter-spacing: 3px;
 }
 
 h5 {
-    letter-spacing: 3px;
+    color: white;
 }
 
 .hr-light {
@@ -44,10 +49,6 @@ body {
     background-size: cover;
 }
 
-p {
-    color: white;
-}
-
 .proyectos,
 .herramientas
 .contacto {
@@ -59,21 +60,22 @@ p {
     padding-top: 2em;
 }
 
-h1 {
-    padding: 3%;
-}
-
 i {
-    padding: 7%;
+  padding: 10%;
 }
 
-.icon{
-    text-align:center; margin-top:5em
+i.icon, .iconHab {
+    color: white;
+}
+.icon:hover {
+    color:#EA6212;
+    text-align:center; 
 }
 
 .fa-whatsapp, .fa-linkedin, .fa-envelope {
-	border-radius: 50%;
+    border-radius: 50%;
     background:#b4b4b4;
+    padding-top: .6em;
     height: 2em;
     width: 2em;
 }
@@ -86,5 +88,21 @@ i {
 }
 .fa-envelope:hover{
 	background: #EA6212;
+}
+
+.habilidades {
+    width: 100%;
+}
+
+.iconCom {
+    margin-top: 20%; 
+}
+
+.iconHab {
+    padding: 2%;
+}
+
+.iconHab:hover {
+    color: #EA6212;
 }
 
