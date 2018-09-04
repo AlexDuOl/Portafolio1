@@ -1,3 +1,7 @@
+/*font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+*/
+
 .top-nav-collapse {
     background-color: #78909c !important;
 }
@@ -12,21 +16,37 @@
     }
 }
 
+.fontButtom {
+    color: #fdfef9;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 h1 {
+    color: #fdfef9;
+    font-family: 'Nunito Sans', sans-serif;
     letter-spacing: 8px;
     padding: 3%;
 }
 
+#proyectos,
+#contacto {
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 h4 {
+    color: #fdfef9;
+    font-family: 'Nunito', sans-serif;
     letter-spacing: 3px;
 }
 
 h5 {
-    color: white;
+    color: #fdfef9;
+    font-family: 'Nunito', sans-serif;
 }
 
 .hr-light {
-    border-top: 3px solid #fff;
+    border-top: 3px solid #fdfef9;
     width: 80px;
 }
 
@@ -40,7 +60,7 @@ h5 {
 }
 
 body {
-    background: #011c37;
+    background: #fdfef9;
 }
 
 .jarallax {
@@ -49,11 +69,24 @@ body {
     background-size: cover;
 }
 
+.containerName {
+    background: rgb(13, 3, 0, 0.3);
+    padding: 2em;
+}
+
 .proyectos,
-.herramientas
 .contacto {
-    background: #011c37;
-    height: 550px;
+    background: #fdfef9;
+    height: 700px;
+}
+
+.herramientas {
+    background: #354457;
+    height: 630px;
+}
+
+footer {
+    background: #354457;
 }
 
 .link {
@@ -68,26 +101,26 @@ i.icon, .iconHab {
     color: white;
 }
 .icon:hover {
-    color:#EA6212;
+    color:#0d0300;
     text-align:center; 
 }
 
 .fa-whatsapp, .fa-linkedin, .fa-envelope {
     border-radius: 50%;
-    background:#b4b4b4;
+    background:#354457;
     padding-top: .6em;
     height: 2em;
     width: 2em;
 }
 
 .fa-whatsapp:hover{
-	background: #EA6212;
+	background: #0d0300;
 }
 .fa-linkedin:hover{
-	background: #EA6212;
+	background: #0d0300;
 }
 .fa-envelope:hover{
-	background: #EA6212;
+	background: #0d0300;
 }
 
 .habilidades {
