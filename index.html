@@ -11,11 +11,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/css/mdb.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <title>AlexDuran</title>
 </head>
 
-<body>
+<body onload="quellueva();">
     <!--Main Navigation-->
     <header>
         <!--Navbar-->
@@ -43,7 +44,7 @@
             </div>
         </nav>
         <!-- Intro Section -->
-        <div class="view hm-black-light jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url(./css/assets/images/viastren.jpg);">
+        <div id="background" alt="background" src="" class="view hm-black-light jarallax" data-jarallax='{"speed": 0.2}'>
             <div class="full-bg-img">
                 <div class="container flex-center">
                     <div class="row pt-5 mt-3">
@@ -97,7 +98,7 @@
                             <!--Title-->
                             <h6 class="card-title">Trello</h6>
                             <!--Text-->
-                            <p class="card-text">Representacion gráfica y funcional de la aplicación Trello.
+                            <p class="card-text">Aplicación desktop. Representacion gráfica y funcional de la aplicación Trello.
                                 Permite agregar tarjetas para organizar tus actividades.</p>
                             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                             <a class="btn btn-light-blue btn-md" href="https://alexduol.github.io/LAB-TrelloGdl/" target="_blank">Web</a>
@@ -118,7 +119,7 @@
                             <!--Title-->
                             <h6 class="card-title">Labcar</h6>
                             <!--Text-->
-                            <p class="card-text">Descripción del proyecto.</p>
+                            <p class="card-text">Aplicación desktop que simula un servicios de taxi.</p>
                             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                             <a class="btn btn-light-blue btn-md" href="https://alexduol.github.io/LAB-lab-car-boilerplate/" target="_blank">Web</a>
                         </div>
@@ -139,7 +140,7 @@
                             <!--Title-->
                             <h6 class="card-title">Boostrap</h6>
                             <!--Text-->
-                            <p class="card-text">Descripción del proyecto.</p>
+                            <p class="card-text">Aplicación desktop. Replica de la plantilla de Start Booststrap para Freelancer.</p>
                             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                             <a class="btn btn-light-blue btn-md" href="https://alexduol.github.io/LAB-Boostrap-CSS/" target="_blank">Web</a>
                         </div>
@@ -161,28 +162,41 @@
                 </div>
                 <!--Grid column-->
                 <div class="col-md-12 text-center">
-                    <h5 class="white-text mr-md-5 mr-3">Habilidades técnicas</h5>
+                    <div class="habContainer">
+                        <h5 class="mr-md-5 mr-3 hability">Habilidades técnicas</h5>
+                    </div>
                     <!-- Grid column -->
                     <div class="col-md-12 py-5">
                         <div class="mb-5 flex-center" role="group" >
                             <!--HTML5-->
                             <a class="html5-ic btn-sm">
-                                <i class="fa fa-html5 fa-lg mr-md-5 mr-3 fa-4x icon"></i>
+                                <i class="devicon-html5-plain-wordmark mr-md-5 mr-3 fa-4x icon"></i>
                             </a>
                             <!-- Css3 -->
                             <a class="css3-ic btn-sm">
-                                <i class="fa fa-css3 mr-md-5 mr-3 fa-4x icon"></i>
+                                <i class="devicon-css3-plain-wordmark mr-md-5 mr-3 fa-4x icon"></i>
                             </a>
                             <!-- Js-->
-                            <a class="css3-ic btn-sm">
-                                <i class="fab fa-js-square mr-md-5 mr-3 fa-4x icon"></i>
+                            <a class="js-ic btn-sm">
+                                <i class="devicon-javascript-plain mr-md-5 mr-3 fa-4x icon"></i>
                             </a>
-                            <!-- Github -->
-                            <a class="github-ic btn-sm">
-                                <i class="fa fa-github fa-lg mr-md-5 mr-3 fa-4x icon"></i>
+                            <!-- JQ-->
+                            <a class="jq-ic btn-sm">
+                                <i class="devicon-jquery-plain-wordmark mr-md-5 mr-3 fa-4x icon"></i>
+                            </a>
+                            <!-- Git-->
+                            <a class="git-ic btn-sm">
+                                <i class="devicon-git-plain-wordmark mr-md-5 mr-3 fa-4x icon"></i>
+                            </a>
+                            <!-- API-->
+                            <a class="cogs-ic btn-sm">
+                                <i class="fa fa-cogs fa-lg mr-md-5 mr-3 fa-4x icon"></i>
+                                <h5>API</h5>                         
                             </a>
                         </div>
-                        <h5 class="white-text mr-md-5 mr-3">Habilidades blandas</h5>
+                        <div class="habContainer">
+                            <h5 class="mr-md-5 mr-3 hability">Habilidades blandas</h5>
+                        </div>
                         <div class="col-md-12 py-5">
                             <div class="col-mb-12 flex-center habilidades">
                                 <i class="fa fa-check-square-o fa-md mr-md-1 mr-1 iconHab"></i><a class="git-ic white-text mr-md-5 mr-3">Comunicación</a>
@@ -224,7 +238,11 @@
                                     </a>
                                     <!--Linkedin -->
                                     <a class="li-ic" href="https://www.linkedin.com/in/alexduranolmedo/" target="_blank">
-                                        <i class=" fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x iconCom"> </i>
+                                        <i class=" fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x iconCom"></i>
+                                    </a>
+                                    <!-- Github -->
+                                    <a class="github-ic" href="https://github.com/AlexDuOl" target="_blank">
+                                        <i class="fa fa-github fa-lg white-text mr-md-5 mr-3 fa-2x iconCom"></i>
                                     </a>
                                     <!--Gmail-->
                                     <a class="gmail-ic" href="mailto:alexdurancm@gmail.com" target="_blank">
@@ -252,7 +270,7 @@
         <!-- Footer -->
     </main>
     <!--Main Layout-->
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js "></script>
     <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/js/mdb.min.js "></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>

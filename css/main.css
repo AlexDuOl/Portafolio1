@@ -16,6 +16,10 @@ font-family: 'Nunito Sans', sans-serif;
     }
 }
 
+#background {
+background-image: url(../css/assets/images/viastren.jpg);
+}
+
 .fontButtom {
     color: #fdfef9;
     font-family: 'Nunito Sans', sans-serif;
@@ -43,11 +47,29 @@ h4 {
 h5 {
     color: #fdfef9;
     font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+.hability {
+    color: #fdfef9;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 15%;
+}
+
+a > h5:hover {
+    color:#0d0300;
+    font-family: 'Nunito', sans-serif;
 }
 
 h6 {
     color: #575757;
     font-family: 'Nunito', sans-serif;
+}
+
+.habContainer {
+    background: #78909c;
+    margin: auto;
+    width: 30%;
 }
 
 .hr-light {
@@ -118,7 +140,7 @@ i.icon, .iconHab {
     text-align:center; 
 }
 
-.fa-whatsapp, .fa-linkedin, .fa-envelope {
+.fa-whatsapp, .fa-linkedin, .fa-envelope, .fa-github {
     border-radius: 50%;
     background:#354457;
     padding-top: .6em;
@@ -132,6 +154,10 @@ i.icon, .iconHab {
 .fa-linkedin:hover{
 	background: #0d0300;
 }
+.fa-github:hover{
+	background: #0d0300;
+}
+
 .fa-envelope:hover{
 	background: #0d0300;
 }
@@ -151,4 +177,6 @@ i.icon, .iconHab {
 .iconHab:hover {
     color:#0d0300;
 }
+
+
 
