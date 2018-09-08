@@ -17,12 +17,16 @@ font-family: 'Nunito Sans', sans-serif;
 }
 
 #background {
-background-image: url(../css/assets/images/viastren.jpg);
+    background-image: url(../css/assets/images/viastren.jpg);
 }
 
 .fontButtom {
     color: #fdfef9;
     font-family: 'Nunito Sans', sans-serif;
+}
+
+a>img {
+    width: 2.5em;
 }
 
 h1 {
@@ -59,8 +63,8 @@ h5 {
     margin-left: 15%;
 }
 
-a > h5:hover {
-    color:#0d0300;
+a>h5:hover {
+    color: #78909c;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -113,7 +117,7 @@ body {
     height: 600px;
 }
 
-.proyectos{
+.proyectos {
     background: #fdfef9;
     height: 680px;
 }
@@ -132,37 +136,44 @@ footer {
 }
 
 i {
-  padding: 10%;
+    padding: 10%;
 }
 
-i.icon, .iconHab {
+i.icon,
+.iconHab {
     color: white;
 }
+
 .icon:hover {
-    color:#0d0300;
-    text-align:center; 
+    color: #78909c;
+    text-align: center;
 }
 
-.fa-whatsapp, .fa-linkedin, .fa-envelope, .fa-github {
+.fa-whatsapp,
+.fa-linkedin,
+.fa-envelope,
+.fa-github {
     border-radius: 50%;
-    background:#354457;
+    background: #354457;
     padding-top: .6em;
     height: 2em;
     width: 2em;
 }
 
-.fa-whatsapp:hover{
-	background: #0d0300;
-}
-.fa-linkedin:hover{
-	background: #0d0300;
-}
-.fa-github:hover{
-	background: #0d0300;
+.fa-whatsapp:hover {
+    background: #78909c;
 }
 
-.fa-envelope:hover{
-	background: #0d0300;
+.fa-linkedin:hover {
+    background: #78909c;
+}
+
+.fa-github:hover {
+    background: #78909c;
+}
+
+.fa-envelope:hover {
+    background: #78909c;
 }
 
 .habilidades {
@@ -170,7 +181,7 @@ i.icon, .iconHab {
 }
 
 .iconCom {
-    margin-top: 20%; 
+    margin-top: 20%;
 }
 
 .iconHab {
@@ -178,8 +189,9 @@ i.icon, .iconHab {
 }
 
 .iconHab:hover {
-    color:#0d0300;
+    color: #78909c;
 }
 
-
-
+.catImage {
+    width: 3em;
+}
